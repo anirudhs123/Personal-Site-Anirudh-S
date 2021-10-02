@@ -372,7 +372,61 @@ Copyright &copy;<script>document.write(new Date().getFullYear());</script> All r
 					      </div>
 					   </div>
 				   </div>
-			</section>
+
+
+			 <div class="row">
+						<div class="col-md-9 col-md-offset-3 col-md-pull-3 animate-box" data-animate-effect="fadeInRight">
+							<h2 class="colorlib-heading animate-box">Hackathons</h2>
+						</div>
+					</div>
+					<div class="row">
+						<div class="col-md-12">
+				         <div class="timeline-centered">
+
+				         	<article class="timeline-entry animate-box" data-animate-effect="fadeInRight">
+					            <div class="timeline-entry-inner">
+					               <div class="timeline-icon color-4">
+					                  <i class="icon-pen2"></i>
+					               </div>
+					               <div class="timeline-label">
+					               	<h3><a href="#">Scalathon: Build an Automatic Headline and Sentiment Generator</a> <span style="float: right;"></span></h3>
+					                  <ul>
+					                  	<li>
+					                  		Objective : Process digital content like emails, articles, reports, videos, tweets etc. The task is further broken down into:
+					                  		- Theme Identification of tweets and articles.<br>
+					                  		- Headline generation for articles which follow the mobile technology theme.<br>
+					                  		- If the identified theme is mobile tech, assign a sentiment against the brand described.<br>
+					                  	</li>
+					                  	<li>
+					                  		Even though Transformer models are the current SOTA in language understanding we propose to use a variant of Kim-CNN to take a phoneme input and predict the theme. Further, this method is computationally efficient and showcases faster inference speeds.
+					                  	</li>	
+					                  	<li>
+					                  		mBART, a transformer based model from facebook is used for headline generation. It’s an encoder-decoder model which was pretrained with the objective of denoising multiple languages simultaneously.
+					                  	</li>
+					                  	<li>
+					                  		The Non-english tweets are translated to English using the mBart model. We identify mobile brands entities using NER (Named Entity Recognition). We collected an exhaustive list of mobile brands and Aspect based Sentiment Analysis (ABSA) is used to identify a sentiment towards each aspect in the text.
+					                  	</li>
+					                  	<li>	
+					                  		This <a href="https://github.com/anirudhs123/INTER-IIT-Winning-Solution">solution</a> secured us the Gold medal at the 9th Inter IIT Tech Meet, organized by IIT Guwahati.
+					                  	</li>
+					                  </ul>
+					               </div>
+					            </div>
+					         </article>
+
+					         <article class="timeline-entry begin animate-box" data-animate-effect="fadeInBottom">
+					            <div class="timeline-entry-inner">
+					               <div class="timeline-icon color-none">
+					               </div>
+					            </div>
+					         </article>
+
+					      </div>
+					   </div>
+				   </div>
+				</section>
+
+
 
 
            <section class="colorlib-personal" data-section="personal" style="height: 100vh;">
