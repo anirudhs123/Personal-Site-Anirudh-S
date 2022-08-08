@@ -185,14 +185,12 @@ Copyright &copy;<script>document.write(new Date().getFullYear());</script> All r
 					                  <ul>
 								  <font size="4" face="verdana" color="blue">Project Title : Shared Disk Data Tracking for a failover cluster </font> <br>
 					                  	<li>
-					                  		Worked on Control plane changes to report shared disk in context of owner node and Data path changes to report all IOs in context of the owner node.
+					                  		Worked on both Control and data plane to report the shared disk and all IOs in context of owner node.
 					                  	</li>
 					                  	<li>
-					                  		Wrote a script to automatically detach the shared disk from owner node and reattach the disk in all the cluster nodes before failovering to the target side.
+					                  		Wrote a script to automatically detach the shared disk from the owner node and reattach the disk to all the cluster nodes before failovering to the target side.
 					                  	</li>
-					                  	<li>
-					                  		Verified the Tag generation and Crash consistent RPO generation in context of owner node on the Azure portal.
-					                  	</li>
+					                
 					                  </ul>
 					               </div>
 					            </div>
@@ -213,11 +211,9 @@ Copyright &copy;<script>document.write(new Date().getFullYear());</script> All r
 					                  		Built a pipeline of recommender systems comprising of Popularity, KNN based, Item-Item association based, Bi-Partite graph based and Neural Embedding based recommenders.
 					                  	</li>
 					                  	<li>
-					                  		The Neural Embedding based recommender was built specially for handling sparse input data as the traditional collaborative filtering methods were not very efficient in handling sparse user data.
+					                  		The Neural Embedding based recommender was built specially for handling sparse input data and the graph based association recommender was used for considering co-occurrences among items and to consider higher order proximities
 					                  	</li>
-					                  	<li>
-					                  		The Bi-Partite graph based association recommender was used for considering co-occurrences among items and to consider higher order proximities among the items. 
-					                  	</li>
+					                  	
 								 <li>
 					                  		This new pipeline increased the hits on the recommended products by 8%. You can visit the Project website <a href="https://tinyurl.com/t845ysv4">here</a>.
 					                  	</li>
