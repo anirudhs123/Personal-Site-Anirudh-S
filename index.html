@@ -142,19 +142,11 @@ Copyright &copy;<script>document.write(new Date().getFullYear());</script> All r
 					                  <ul>
 								    <font size="4" face="verdana" color="blue"> Project Title : Medication Scanning – Automatic Retrieval of information from medicine bottles </font> <br>
 					                  	<li>
-					                  		From a given set of 4 images (taken at 90 deg apart) of bottles containing tablets,  we automatically retrieve required information about patients to remind them  about refills and discount/purchase options.
+					                  		From a given set of bottle images, we automatically retrieve required information about patients to remind them  about refills and discount/purchase options.
 					                  	</li>
-					                  	
 								  <li>
-									  The first part of the pipeline consisted modules to perform de-blurring, saliency detection and Mask-RCNN based label localization of an input image.
+									  Built a pipeline comprising of blur detection, saliency detection, image segmentation, and image stitching modules. This stitched image is then passed through OCR and Entity recognition modules to  retrieve the required information.
 								  </li>
-								  
-								  <li>
-									  The output of all the four images from the first module is then stitched together using a Dewarping + SIFT module to create a panorama.
-								  </li>
-					                  	<li>
-									This stitched image is then passed through OCR and Entity recognition modules to  retrieve the required information
-					                  	</li>
 					                  </ul>
 					               </div>
 					            </div>
